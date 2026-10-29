@@ -6,6 +6,7 @@
 // comment that does nothing
 // redundant comment incase the first does something
 // super redundant comment incase the first two do something
+// super redunant comment pt.2 (featuring the developers of sudont)
 
 int check_flag(const char *arg, const Flag flag) {
     if (strcmp(arg, flag.full_flag) == 0 || strcmp(arg, flag.short_flag) == 0)
